@@ -1,0 +1,62 @@
+body {
+    background-image: url('https://images.alphacoders.com/265/thumbbig-265693.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    margin: 0;
+    font-family: "Audiowide", sans-serif;
+    
+}
+
+h4 {
+      text-align: center;
+      color: #9AABD8;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    color: #9AABD8;
+    margin-bottom: 100px;
+    font-size: 70px
+}
+
+h3 {
+    color: #F94F6D;
+text-align: center;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 126.666px;
+}
+
+
+.button-container {
+    text-align: center;
+}
+.button-container button {
+    display: inline-block;
+    /* Other button styles */
+}
+button {
+
+    width: 45px;
+    height: 45px;
+    font-family: "Audiowide", sans-serif;
+    color: #9AABD8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+}
+
