@@ -1,8 +1,8 @@
 let scoreOne = document.getElementById('scoreOne')
 let scoreTwo = document.getElementById('scoreTwo')
 
-let scoreOneValue = 0
-let scoreTwoValue = 0
+let scoreOneValue = 20
+let scoreTwoValue = 20
 
 //1st
 
@@ -15,7 +15,7 @@ function minusOne(){
     scoreOne.textContent = scoreOneValue 
 }
 function clearScore(){
-    scoreOneValue = 0 
+    scoreOneValue = 20 
     scoreOne.textContent = scoreOneValue   
 }
 
@@ -30,7 +30,7 @@ function minusOneB(){
     scoreTwo.textContent = scoreTwoValue 
 }
 function clearScoreB(){
-    scoreTwoValue = 0 
+    scoreTwoValue = 20 
     scoreTwo.textContent = scoreTwoValue   
 }
 
